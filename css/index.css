@@ -201,6 +201,12 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .header-nav .header-content {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .header-nav .header-content a {
   color: black;
   text-decoration: none;
